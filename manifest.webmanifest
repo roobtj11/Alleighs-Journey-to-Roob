@@ -1,0 +1,9 @@
+{
+  "name": "The Adventure",
+  "short_name": "Adventure",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0d0d16",
+  "theme_color": "#10101a",
+  "description": "A small, editable adventure game engine."
+}
