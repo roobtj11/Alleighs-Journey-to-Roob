@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#10101a">
+  <meta name="description" content="A small, editable adventure game engine.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>The Adventure</title>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header shell">
+    <a class="brand" href="./" aria-label="Adventure home"><span class="brand-mark">✦</span> The Adventure</a>
+    <span class="eyebrow" id="connection-status">Ready</span>
+  </header>
+  <main class="shell" id="app" aria-live="polite"></main>
+  <footer class="shell footer">Progress is saved on this device. <a href="gm.html">Game Master</a></footer>
+  <noscript>This app needs JavaScript enabled.</noscript>
+  <script src="js/content.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/player.js"></script>
+</body>
+</html>
